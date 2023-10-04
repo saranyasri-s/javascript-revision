@@ -23,3 +23,9 @@ function combine(a, b, c) {
 }
 let taskFunction = combine(1, 2, 3);
 console.log(taskFunction);
+
+// learning arrays
+const arr1 = [1, 2, 3];
+console.log(arr1[1]);
+arr1.push(8);
+console.log(arr1[3]);
