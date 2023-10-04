@@ -53,5 +53,9 @@
 // let extendedHobbiees = [...hobbies, ...newhobbies];
 // console.log(extendedHobbiees);
 
+setTimeout(() => {
+  console.log("saran its time out");
+}, 4000);
+
 let age = prompt("Enter your age");
 console.log(age);
