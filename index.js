@@ -31,7 +31,6 @@ arr1.push(8);
 console.log(arr1[3]);
 // task2
 
-
 // Exercise: Array Methods
 // Your task is to add the missing logic to a transformToObjects() function that should transform a list of numbers into a list of JavaScript objects.
 
@@ -46,3 +45,10 @@ function transformToObjects(numberArray) {
   return ans;
 }
 console.log(transformToObjects([1, 2, 3, 4]));
+
+// spread operator
+let hobbies = ["a", "b", "c"];
+let newhobbies = ["d", "e", "f"];
+// let extendedHobbiees = hobbies.concat(newhobbies);
+let extendedHobbiees = [...hobbies, ...newhobbies];
+console.log(extendedHobbiees);
